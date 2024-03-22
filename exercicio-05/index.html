@@ -7,51 +7,63 @@
         <h1>Formulário de Inscrição</h1>
 
         <form>
-
-            <label>Nome:</label>
-            <br>
-            <label for="nome"></label>
-            <input type="text" name="nome" required placeholder="Escreva seu nome...">
-
-            <br><br>
-
-            <label>E-mail:</label>
-            <br>
-            <label for="email"></label>
-            <input type="email" name="email" required placeholder="Ex.: abcde@gmail.com">
+            <div>
+                <label>Nome:</label>
+                <br>
+                <label for="nome"></label>
+                <input type="text" id="nome" name="nome" required placeholder="Escreva seu nome...">
+            </div>
 
             <br><br>
 
-            <label>Whatsapp:</label>
-            <br>
-            <label for="whatsapp"></label>
-            <input type="text" name="whatsapp" required placeholder="Ex.: 123456789">
+            <div>
+                <label>E-mail:</label>
+                <br>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" required placeholder="Ex.: abcde@gmail.com">
+            </div>
 
             <br><br>
 
-            <label>Área de atuação:</label>
-            <br>
-            <input type="radio" name="areaAtuacao" id="desenv" value="desenv">
-            <label for="desenv">Desenvolvimento</label>
-            <input type="radio" name="areaAtuacao" id="qa" value="qa">
-            <label for="qa">Quality Assurance (QA)</label>
-            <input type="radio" name="areaAtuacao" id="ad" value="ad">
-            <label for="ad">Análise de Dados</label>
-            <input type="radio" name="areaAtuacao" id="ie" value="ie">
-            <label for="ie">Infraestrutura</label>
+            <div>
+                <label>Whatsapp:</label>
+                <br>
+                <label for="whatsapp"></label>
+                <input type="tel" id="whatsapp" name="whatsapp" required placeholder="Ex.: 123456789">
+            </div>
 
             <br><br>
 
-            <label>Observações:</label>
-            <br>
-            <textarea name="observ" id="observ" cols="40" rows="2" placeholder="Escreva alguma(s) observação(ões), caso tenha."></textarea>
+            <div>
+                <label>Área de atuação:</label>
+                <br>
+                <input type="radio" name="areaAtuacao" id="desenv" value="desenv">
+                <label for="desenv">Desenvolvimento</label>
+                <input type="radio" name="areaAtuacao" id="qa" value="qa">
+                <label for="qa">Quality Assurance (QA)</label>
+                <input type="radio" name="areaAtuacao" id="ad" value="ad">
+                <label for="ad">Análise de Dados</label>
+                <input type="radio" name="areaAtuacao" id="ie" value="ie">
+                <label for="ie">Infraestrutura</label>
+            </div>
 
             <br><br>
 
-            <input type="checkbox" name="ofertas" id="ofertas">
-            <label for="ofertas">Desejo receber novidades e ofertas por e-mail.</label>
+            <div>
+                <label>Observações:</label>
+                <br>
+                <textarea name="observ" id="observ" cols="40" rows="2" placeholder="Escreva alguma(s) observação(ões), caso tenha."></textarea>
+            </div>
 
             <br><br>
+
+            <div>
+                <input type="checkbox" name="ofertas" id="ofertas">
+                <label for="ofertas">Desejo receber novidades e ofertas por e-mail.</label>
+            </div>
+
+            <br><br>
+            
             <button type="submit">Enviar</button>
         </form>
     </body>
